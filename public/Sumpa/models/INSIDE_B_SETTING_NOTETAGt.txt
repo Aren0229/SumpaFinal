@@ -1,0 +1,292 @@
+<mz3d>
+// TOP TRANSPARENCY
+//1ST STONE
+A4,0,0:top(A4,0,0|alpha:0.35)
+A4,1,0:top(A4,1,0|alpha:0.35)
+A4,2,0:top(A4,2,0|alpha:0.35)
+A4,3,0:top(A4,3,0|alpha:0.35)
+A4,4,0:top(A4,4,0|alpha:0.35)
+A4,5,0:top(A4,5,0|alpha:0.35)
+A4,6,0:top(A4,6,0|alpha:0.35)
+A4,7,0:top(A4,7,0|alpha:0.35)
+
+//1ST WOOD
+A4,0,2:top(A4,0,2|alpha:0.35)
+A4,1,2:top(A4,1,2|alpha:0.35)
+A4,2,2:top(A4,2,2|alpha:0.35)
+A4,3,2:top(A4,3,2|alpha:0.35)
+A4,4,2:top(A4,4,2|alpha:0.35)
+A4,5,2:top(A4,5,2|alpha:0.35)
+A4,6,2:top(A4,6,2|alpha:0.35)
+A4,7,2:top(A4,7,2|alpha:0.35)
+
+// CREAM
+A4,0,4:top(A4,0,4|alpha:0.35)
+A4,1,4:top(A4,1,4|alpha:0.35)
+A4,2,4:top(A4,2,4|alpha:0.35)
+A4,3,4:top(A4,3,4|alpha:0.35)
+A4,4,4:top(A4,4,4|alpha:0.35)
+A4,5,4:top(A4,5,4|alpha:0.35)
+A4,6,4:top(A4,6,4|alpha:0.35)
+A4,7,4:top(A4,7,4|alpha:0.35)
+
+
+\\Stairs
+B,1,0: model(Inside_Poly_Stairs_01.obj),rot(270)
+B,2,0: model(Inside_Poly_Stairs_01.obj),rot(90)
+B,3,0: model(Inside_Poly_Stairs_02.obj),rot(270)
+B,4,0: model(Inside_Poly_Stairs_02.obj),rot(90)
+
+B,1,1: model(Inside_Poly_Stairs_01_Down.obj),rot(270)
+B,2,1: model(Inside_Poly_Stairs_01_Down.obj),rot(90)
+B,3,1: model(Inside_Poly_Stairs_02_Down.obj),rot(270)
+B,4,1: model(Inside_Poly_Stairs_02_Down.obj),rot(90)
+
+B,0,1: model(Inside_Poly_Hole_01_Down.obj)
+
+\\Wall ladders & Rope
+B,5,2: model(Inside_Poly_Ladder_01.obj),pass(*)
+B,5,3: model(Inside_Poly_Hole_Ladder_02_Down.obj)
+
+B,6,2: model(Inside_Poly_Ladder_02.obj),pass(*)
+B,6,3: model(Inside_Poly_Hole_Ladder_01_Down.obj)
+
+B,7,2: model(Inside_Poly_Rope_01.obj),pass(*)
+B,7,3: model(Inside_Poly_Hole_Rope_01_Down.obj)
+
+\\Pillar & Stone & Wall
+B,0,3-4: model(Inside_Poly_Round_Pillar_01.obj)
+B,0,5: model(Inside_Poly_Round_Pillar_02.obj) 
+B,1,3-4: model(Inside_Poly_Square_Pillar_01.obj) 
+B,1,5: model(Inside_Poly_Square_Pillar_02.obj) 
+B,2,3-4: model(Inside_Poly_Wall_Pillar_01.obj) 
+B,2,5: model(Inside_Poly_Wall_Pillar_02.obj) 
+B,3,4: model(Inside_Poly_Stone_Writting_01.obj) 
+B,3,5: model(Inside_Poly_Stone_Writting_02.obj) 
+B,3,3: model(Inside_Poly_Stone_Pieces_01.obj) 
+B,4,3: model(Inside_Poly_Stone_Pieces_02.obj) 
+
+
+\\Curtains
+B,0,6-7: model(Inside_Poly_Curtain_01.obj) 
+B,1,6-7: model(Inside_Poly_Curtain_02.obj) 
+B,2,6-7: model(Inside_Poly_Curtain_03.obj) 
+B,3,6-7: model(Inside_Poly_Curtain_04.obj) 
+B,4,6-7: model(Inside_Poly_Curtain_05.obj) 
+B,5,6-7: model(Inside_Poly_Curtain_06.obj) 
+B,6,6-7: model(Inside_Poly_Curtain_07.obj) 
+B,7,6-7: model(Inside_Poly_Curtain_08.obj) 
+
+
+\\Wall Deco & Stuffs
+B,0,10-11: model(Inside_Poly_Flag_01.obj),offset(0,0,1.5), pass(*)
+B,1,10-11: model(Inside_Poly_Flag_02.obj),offset(0,0,1.5), pass(*)
+B,2,10: model(Inside_Poly_Wall_Deco_01.obj),offset(0,0,1.5), pass(*)
+B,3,10: model(Inside_Poly_Wall_Deco_02.obj),offset(0,0,1.5), pass(*)
+B,2,11: model(Inside_Poly_Wall_Deco_03.obj),offset(0,0,1.5), pass(*)
+B,2-3,16: model(Inside_Poly_Wall_Deco_04.obj),offset(0,0,1.5), pass(*)
+B,4,16: model(Inside_Poly_Wall_Deco_05.obj),offset(0,0,1.5), pass(*)
+B,5,16: model(Inside_Poly_Wall_Deco_06.obj),offset(0,0,1.5), pass(*)
+B,6,16: model(Inside_Poly_Wall_Deco_07.obj),offset(0,0,1.5), pass(*)
+B,7,16: model(Inside_Poly_Wall_Deco_08.obj),offset(0,0,1.5), pass(*)
+
+B,5,14-15: model(Inside_Poly_Clock_01.obj),offset(0,0,1), pass(*)
+///for clock animation <mz3d: model(Inside_B_Poly_Clock_01_Anim.glb)>
+B,6,14-15: model(Inside_Poly_Mirror_01.obj),offset(0,0,1), pass(*) 
+B,7,14-15: model(Inside_Poly_Mirror_02.obj),offset(0,0,1), pass(*) 
+
+///world Map
+B,0-1,16: mesh(c{1,0,1|0,-0.49,1||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+///shattered Paper 
+B,0,27: mesh(c{1,0,1|0,-0.49,1||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+///Whole Paper
+B,3,11: mesh(c{1,0,1|0,-0.49,1||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+\\Shelves on Wall
+B,0,26: model(Inside_Poly_Shelf_Wall_01.obj),offset(0,0,1.5), pass(*)
+B,0,23: model(Inside_Poly_Shelf_Wall_02.obj),offset(0,0,1.5), pass(*)  
+B,1,23: model(Inside_Poly_Shelf_Wall_03.obj),offset(0,0,1.5), pass(*)  
+B,0,24: model(Inside_Poly_Shelf_Wall_04.obj),offset(0,0,1.5), pass(*)  
+B,1,24: model(Inside_Poly_Shelf_Wall_05.obj),offset(0,0,1.5), pass(*)  
+
+
+\\Chairs 
+B,5,12-13: model(Inside_Poly_Chair_01.obj) 
+B,6,12-13: model(Inside_Poly_Chair_02.obj) 
+B,7,12-13: model(Inside_Poly_Chair_03.obj) 
+B,0-4,12-13: model(Inside_Poly_Chair_04.obj) 
+B,0,15: model(Inside_Poly_Chair_05.obj) 
+B,7,29: model(Inside_Poly_Chair_05_Damaged.obj) 
+B,2,15: model(Inside_Poly_Chair_06.obj) 
+B,1,15: model(Inside_Poly_Chair_07.obj) 
+
+
+\\Tables
+B,4,14: model(Inside_Poly_Table_01.obj) 
+B,0-1,14: model(Inside_Poly_Table_02.obj) 
+B,3,14: model(Inside_Poly_Table_03.obj) 
+B,3,15: model(Inside_Poly_Table_04.obj) 
+B,2,14: model(Inside_Poly_Table_05.obj) 
+B,6,29: model(Inside_Poly_Table_05_Damaged.obj) 
+B,4,15: model(Inside_Poly_Table_06.obj) 
+
+B,4,25: model(Inside_Poly_Vanity_Table_01.obj)
+
+\\Shelves
+B,2,17-18: model(Inside_Poly_Shelf_01_With_Door.obj),shadow(2,2) 
+\\\\\\\This model is for open door animation
+\\<mz3d: model(Inside_B_Poly_Shelf_01_With_Doors_Anim.glb)>
+
+
+B,3,17-18: model(Inside_Poly_Shelf_02_With_Drawers.obj),shadow(2,2) 
+\\\\\\\This model is for open door animation
+\\<mz3d: model(Inside_B_Poly_Shelf_01_With_Doors_Anim.glb)>
+
+B,4,17-18: model(Inside_Poly_Shelf_03.obj),shadow(2,2) 
+B,5,17-18: model(Inside_Poly_Shelf_04.obj),shadow(2,2) 
+
+B,6,17: model(Inside_Poly_Shelf_05.obj),offset(0.5,0,0),shadow(2,2)
+B,6,18: model(Inside_Poly_Shelf_05.obj),offset(0,0.5,0),shadow(2,2)
+B,7,17: model(Inside_Poly_Shelf_05.obj),offset(-0.5,0,0),shadow(2,2)
+B,7,18: model(Inside_Poly_Shelf_05.obj),offset(0,-0.5,0),shadow(2,2)
+
+B,6,19: model(Inside_Poly_Shelf_06.obj),offset(0.5,0,0),shadow(2,2)
+B,6,20: model(Inside_Poly_Shelf_06.obj),offset(0,0.5,0),shadow(2,2)
+B,7,19: model(Inside_Poly_Shelf_06.obj),offset(-0.5,0,0),shadow(2,2)
+B,7,20: model(Inside_Poly_Shelf_06.obj),offset(0,-0.5,0),shadow(2,2)
+
+B,5,19-20: model(Inside_Poly_Shelf_07.obj),shadow(2,2) 
+B,4,19-20: model(Inside_Poly_Shelf_08.obj),shadow(2,2) 
+B,0,19-20: model(Inside_Poly_Shelf_09.obj),shadow(2,2) 
+B,1,19-20: model(Inside_Poly_Shelf_10.obj),shadow(2,2) 
+
+B,2,19: model(Inside_Poly_Shelf_11.obj),offset(0.5,0,0),shadow(2,2)
+B,2,20: model(Inside_Poly_Shelf_11.obj),offset(0,0.5,0),shadow(2,2)
+B,3,19: model(Inside_Poly_Shelf_11.obj),offset(-0.5,0,0),shadow(2,2)
+B,3,20: model(Inside_Poly_Shelf_11.obj),offset(0,-0.5,0),shadow(2,2)
+
+
+\\Fire Places
+B,2,23-24: model(Inside_Poly_Fire_Place_01.obj)
+B,3,23-24: model(Inside_Poly_Fire_Place_02.obj)
+B,4,23-24: model(Inside_Poly_Fire_Place_03.obj)
+B,5-7,23-24: model(Inside_Poly_Fire_Place_04.obj),offset(0,-0.1,0)
+
+
+\\Kitchen Tables
+B,0,25: model(Inside_Poly_Kitchen_Table_01.obj)
+B,1,25: model(Inside_Poly_Kitchen_Table_02.obj)
+B,2,25: model(Inside_Poly_Kitchen_Table_03.obj)
+B,3,25: model(Inside_Poly_Kitchen_Table_04.obj)
+
+\\Pianos
+B,5-7,25-26: model(Inside_Poly_Piano_01.obj)
+B,5-7,27-28: model(Inside_Poly_Piano_02.obj)
+
+\\House Items & Junks
+B,1,26: model(Inside_Poly_Pottery_01.obj)
+B,4,29: model(Inside_Poly_Pottery_01_Damaged.obj)
+B,2,26: model(Inside_Poly_Pottery_02.obj)
+
+B,3,26: model(Inside_Poly_Bucket_01.obj)
+B,1,27: model(Inside_Poly_Bucket_01_Water.obj)
+
+B,4,26: model(Inside_Poly_Barrel_01.obj)
+B,5,29: model(Inside_Poly_Barrel_01_Damaged.obj)
+
+B,2,27: model(Inside_Poly_Bucket_Wide_01.obj)
+B,3,27: model(Inside_Poly_Bucket_Wide_01_Water.obj)
+
+B,4,27: model(Inside_Poly_Planks_01.obj)
+
+
+\\Crates
+B,0,28: model(Inside_Poly_Crate_01.obj)
+B,1,28: model(Inside_Poly_Crate_02.obj)
+B,4,28: model(Inside_Poly_Crate_02_Damaged.obj)
+B,0,29: model(Inside_Poly_Crate_03.obj)
+B,1,29: model(Inside_Poly_Crate_04.obj)
+B,0,30: model(Inside_Poly_Crate_05.obj)
+B,1,30: model(Inside_Poly_Crate_06.obj)
+B,3,30-31: model(Inside_Poly_Crate_Big_01.obj)
+
+\\Crates_01 all directions
+B,2,28: model(Inside_Poly_Crate_01_Double.obj),offset(0,0.2,0)
+B,3,28: model(Inside_Poly_Crate_01_Double.obj),offset(0.2,0,0)
+B,2,29: model(Inside_Poly_Crate_01_Double.obj),offset(0,-0.2,0)
+B,3,29: model(Inside_Poly_Crate_01_Double.obj),offset(-0.2,0,0)
+
+\\Bags
+B,0,31: model(Inside_Poly_Bag_01.obj)
+B,2,30-31: model(Inside_Poly_Bag_02.obj)
+B,1,31: model(Inside_Poly_Bag_03.obj)
+
+
+\\Prison Cells
+B,4,30-31: model(Inside_Poly_Cell_Door.obj)
+\\Cell door animation
+\\<mz3d: model(Inside_Poly_Cell_Door_Anim.glb)>
+B,5,30-31: model(Inside_Poly_Cell_Left.obj)
+B,6,30-31: model(Inside_Poly_Cell_Center.obj)
+B,7,30-31: model(Inside_Poly_Cell_Right.obj)
+
+Wall Cracks & Dark Doors Entrance
+B,4,4: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,4,5: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,5,4: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,5,5: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,6,4: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,6,5: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,7,4: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+B,7,5: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+B,0-4,2: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+\\Beds
+B,0,21: model(Inside_Poly_Bed_01_Without_Blanket.obj)
+B,0,22: model(Inside_Poly_Bed_01_Blanket_01.obj),offset(0,-1,0),pass(*) 
+
+B,7,21: model(Inside_Poly_Bed_01_Without_Blanket.obj)
+B,7,22: model(Inside_Poly_Bed_01_Blanket_02.obj),offset(0,-1,0),pass(*)  
+
+B,6,21: model(Inside_Poly_Bed_01_Without_Blanket_Broken.obj)
+B,6,22: model(Inside_Poly_Bed_01_Blanket_03.obj),offset(0,-1,0),pass(*)
+  
+
+B,3,21: model(Inside_Poly_Bed_02_Without_Blanket.obj)
+B,3,22: model(Inside_Poly_Bed_02_Blanket_01.obj),offset(0,-1,0),pass(*)  
+B,4,21: model(Inside_Poly_Bed_02_Without_Blanket.obj)
+B,4,22: model(Inside_Poly_Bed_02_Blanket_02.obj),offset(0,-1,0),pass(*)  
+
+B,1,21: model(Inside_Poly_Bed_03_Without_Blanket.obj),offset(0.5,0,0)
+B,1,22: model(Inside_Poly_Bed_03_Blanket_01.obj),offset(0.5,-1,0)
+
+B,2,21: model(Inside_Poly_Bed_03_Without_Blanket.obj),offset(0,0.5,0)
+B,2,22: model(Inside_Poly_Bed_03_Blanket_01.obj),offset(0,-0.5,0)
+
+B,5,21-22: model(Inside_Poly_Bed_04_With_Blanket.obj)
+
+\\Windows
+B,0-1,8: model(Inside_Poly_Window_01.obj),offset(0,0,1), pass(*)
+B,0-1,9: model(Inside_Poly_Window_01_Night.obj),offset(0,0,1), pass(*)
+
+B,2-3,8: model(Inside_Poly_Window_02.obj),offset(0,0,1), pass(*) 
+B,2-3,9: model(Inside_Poly_Window_02_Night.obj),offset(0,0,1), pass(*) 
+
+B,4,8: model(Inside_Poly_Window_03.obj),offset(0,0,1), pass(*) 
+B,4,9: model(Inside_Poly_Window_03_Night.obj),offset(0,0,1), pass(*) 
+
+B,5,8: model(Inside_Poly_Window_04.obj),offset(0,0,1), pass(*) 
+B,5,9: model(Inside_Poly_Window_04_Night.obj),offset(0,0,1), pass(*) 
+
+B,6,8-9: model(Inside_Poly_Window_05.obj),offset(0,0,1), pass(*) 
+
+B,7,8-9: model(Inside_Poly_Window_06.obj),offset(0,0,1), pass(*) 
+
+B,4,10-11: model(Inside_Poly_Window_07.obj),offset(0,0,1), pass(*) 
+
+
+//Wall Windows
+B,5-7,10: mesh(c{1,0,1|0,0.51,-1||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+24px,1,48px},{0,0},{B,+0,+24px,1,48px},{0,0}}),pass(*)
+B,5-7,11: mesh(c{1,0,1|0,-0.49,1||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-24px,1,48px},{0,0},{B,+0,-24px,1,48px},{0,0}}),pass(*)
+</mz3d>

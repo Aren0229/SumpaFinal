@@ -1,0 +1,382 @@
+<mz3d>
+
+\\0-1,10 Wooden Bridge
+B,0,10:model(Poly_Bridge_Wood_01_Horizontal.obj)
+B,1,10:model(Poly_Bridge_Wood_01_Vertical.obj)
+B,2,10:model(Poly_Bridge_Wood_02_Horizontal.obj)
+B,3,10:model(Poly_Bridge_Wood_02_Vertical.obj)
+B,4,10:model(Poly_Bridge_Stone_01_Horizontal.obj)
+B,5,10:model(Poly_Bridge_Stone_01_Vertical.obj)
+B,6,10:model(Poly_Bridge_Stone_02_Vertical.obj)
+B,7,10:model(Poly_Bridge_Stone_02_Horizontal.obj)
+\\Squares Bridges
+\\B,2-7,10: mesh(c{1,1,.25|0,0,1||{B,+0,+0px,1,48px},{B,+0,+15px,1,15px},{B,+0,+15px,1,15px},{B,+0,+15px,1,15px},{B,+0,+15px,1,15px}})
+
+\\Bridges Spars
+\\B,0,11:mesh(c{1,1,.75|0,0,0||{2,10},{+0,+0px,1,48px},{+0,+0px,1,48px},{2,11},{+0,+0px,1,48px},{2,11}})
+\\B,1,11:mesh(c{1,1,.75|0,0,0||{2,10},{+0,+0px,1,48px},{1,11},{2,11},{3,11},{2,11})
+\\B,2,11:mesh(c{1,1,.75|0,0,0||{2,10},{+0,+0px,1,48px},{2,11},{2,11},{2,11},{2,11})
+\\B,3,11:mesh(c{1,1,.75|0,0,0||{3,10},{+0,+0px,1,48px},{3,11},{2,11},{1,11},{2,11})
+\\B,4,11:mesh(c{1,1,.75|0,0,0||{4,10},{+0,+0px,1,48px},{4,11},{6,11},{4,11},{6,11})
+\\B,5,11:mesh(c{1,1,.75|0,0,0||{4,10},{+0,+0px,1,48px},{5,11},{6,11},{7,11},{6,11})
+\\B,6,11:mesh(c{1,1,.75|0,0,0||{4,10},{+0,+0px,1,48px},{6,11},{6,11},{6,11},{6,11})
+\\B,7,11:mesh(c{1,1,.75|0,0,0||{4,10},{+0,+0px,1,48px},{7,11},{6,11},{5,11},{6,11})
+
+B,0,11:model(Poly_Bridge_Spar_01_Center.obj)
+B,1,11:model(Poly_Bridge_Spar_01_Right.obj)
+B,2,11:model(Poly_Bridge_Spar_01_Center_Connect.obj)
+B,3,11:model(Poly_Bridge_Spar_01_Left.obj)
+B,4,11:model(Poly_Bridge_Spar_Stone_01_Center.obj)
+B,5,11:model(Poly_Bridge_Spar_Stone_01_Left.obj)
+B,6,11:model(Poly_Bridge_Spar_Stone_01_Center_Connect.obj)
+B,7,11:model(Poly_Bridge_Spar_Stone_01_Right.obj)
+
+
+\\ Dead Tree & Plants
+B,0-1,29:model(Poly_Dead_Tree_01.obj),rot(360r),scale(.8+0.5*rand(1))
+B,0-1,30:model(Poly_Dead_Tree_01.obj),rot(360r),scale(.8+0.5*rand(1))
+
+B,0,28:model(Poly_Dead_Plant_01.obj)
+B,7,25:model(Poly_Dead_Plant_02_Snow.obj)
+
+\\ Trees
+B,5,19:model(Poly_Tree_02_A.obj),rot(360r),height(1+0.5r),scale(.8+0.5*rand(1))
+B,5,20:model(Poly_Tree_02.obj),rot(360r),height(1+0.5r),scale(.8+0.5*rand(1))
+B,6,19:model(Poly_Tree_02_B.obj),rot(360r),height(1+0.5r),scale(.8+0.5*rand(1))
+\\Extra Trees are not in setup
+\\(Poly_Tree_02_C.obj)
+\\(Poly_Tree_02_D.obj)
+
+B,0-1,22-23:model(Poly_Tree_01.obj),rot(360r),height(1+0.5r),scale(0.5+0.5*rand(1))
+B,2,22:model(Poly_Tree_01_A.obj),rot(360r),height(1+0.5r),scale(0.8+0.5*rand(1))
+B,3,22:model(Poly_Tree_01_B.obj),rot(360r),height(1+0.5r),scale(0.8+0.5*rand(1))
+B,2,23:model(Poly_Tree_01_C.obj),rot(360r),height(1+0.5r),scale(0.8+0.5*rand(1))
+B,3,23:model(Poly_Tree_01_D.obj),rot(360r),height(1+0.5r),scale(0.8+0.5*rand(1))
+
+
+B,0,24:model(Poly_Pine_Tree_02_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,0,25:model(Poly_Pine_Tree_02_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,1,24:model(Poly_Pine_Tree_02_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,1,25:model(Poly_Pine_Tree_02_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+
+B,2,24:model(Poly_Pine_Tree_02_A.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,2,25:model(Poly_Pine_Tree_02_A.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,3,24:model(Poly_Pine_Tree_02_A.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,3,25:model(Poly_Pine_Tree_02_A.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+
+B,5,27:model(Poly_Pine_Tree_01_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,5,28:model(Poly_Pine_Tree_01_Snow.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+B,6,27:model(Poly_Pine_Tree_01_A.obj),rot(360r),height(1+0.5r),width(0.5+0.5*rand(1))
+
+// water 
+A1,0,0-1:top(A1,.5,1.5|alpha:0.6,animx:2),side(A1,1,1|alpha:0.5,animy:1),inside(A1,31px,54px,31px,10px|animx:2),depth(0.2),float(0.1)
+
+\\Dark entrance
+B,3-7,16: mesh(c{1,0,1.5|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0, 0px,1,48px},{0,0},{B,+0,0px,1,48px},{0,0}}),pass(*)
+
+\\wall plants
+B,0,7: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+B,1,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,1,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,2,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,2,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,3,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,3,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,4,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,4,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,5,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,5,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,6,6: mesh(c{1,0,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,6,7: mesh(c{1,0,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+B,7,6: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+B,7,7: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+B,0,8: mesh(c{1,0,1|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,48px},{0,0},{B,+0,+0px,1,48px},{0,0}}),pass(*)
+
+
+\\Stairs
+B,1,0: model(Poly_Stairs_01_Left.obj)
+B,1,1: model(Poly_Stairs_01_Down_Left.obj)
+
+B,2,0: model(Poly_Stairs_01_Right.obj)
+B,2,1: model(Poly_Stairs_01_Down_Right.obj)
+
+B,3,0: model(Poly_Stairs_02_Left.obj)
+B,3,1: model(Poly_Stairs_02_Down_Left.obj)
+
+B,4,0: model(Poly_Stairs_02_Right.obj)
+B,4,1: model(Poly_Stairs_02_Down_Right.obj)
+
+\\Stairs Down
+B,4,5: model(Poly_Hole_01_Down.obj)
+B,1,5: model(Poly_Hole_Ladder_01_Down.obj)
+B,2,5: model(Poly_Hole_Ladder_02_Down.obj)
+B,3,5: model(Poly_Hole_Rope_01_Down.obj)
+
+\\Hole Vine Down
+B,4,4: model(Poly_Hole_Vine_01_Down.obj)
+
+\\Hole Down
+B,1,21: model(Poly_Hole_02_Down.obj)
+
+\\Pipe
+B,0,16: model(Poly_Pipe_01.obj)
+B,0,17: model(Poly_Pipe_01.obj), rot(180)
+
+\\\\Small Window light for at night (0,1,2,4,5,and 6)
+\\<mz3d:model(Poly_Small_Window_00_Light_A.obj), pos(x,y), offset(0,0,0.5),glow(1),lamp(white,1,1,5),shadow(0)>
+\\<mz3d:model(Poly_Small_Window_00_Light_B.obj), pos(x,y), offset(0,0,0.5),glow(1),lamp(white,1,1,5),shadow(0)>
+
+\\Small Windows
+B,0,13: model(Poly_Small_Window_00.obj),zoff(.5),pass(*)
+B,1,13: model(Poly_Small_Window_01.obj),zoff(.5),pass(*)
+B,2,13: model(Poly_Small_Window_02.obj),zoff(.5),pass(*)
+
+\\\\<mz3d:model(Poly_Small_Window_03_Light_A.obj), pos(x,y), offset(0,0,0.5),glow(1),lamp(white,1,1,5),shadow(0)>
+\\\\<mz3d:model(Poly_Small_Window_03_Light_B.obj), pos(x,y), offset(0,0,0.5),glow(1),lamp(white,1,1,5),shadow(0)>
+B,3,13: model(Poly_Small_Window_03.obj),zoff(.5),pass(*)
+
+B,5,14: model(Poly_Small_Window_04.obj),zoff(.5),pass(*)
+B,5,15: model(Poly_Small_Window_04.obj),zoff(.5),rot(180),pass(*)
+B,6,14: model(Poly_Small_Window_05.obj),zoff(.5),pass(*)
+B,6,15: model(Poly_Small_Window_05.obj),zoff(.5),rot(180),pass(*)
+B,7,14: model(Poly_Small_Window_06.obj),zoff(.5),pass(*)
+B,7,15: model(Poly_Small_Window_06.obj),zoff(.5),rot(180),pass(*)
+
+\\Snowman
+B,0,27:model(Poly_Snowman_01.obj)
+\\Woods
+B,2,21: model(Poly_Woods_01.obj)
+B,2,28: model(Poly_Woods_02_Snow.obj)
+
+\\Weed & Wild Stuffs
+B,0,19: model(Poly_Weed_Plant_02.obj),pass(*)
+B,1,19: model(Poly_Weed_Plant_01.obj),pass(*)
+B,3,19: model(Poly_Weed_Plant_03.obj),pass(*)
+B,0,20: model(Poly_Weed_Plant_04.obj),pass(*)
+B,1,20: model(Poly_Weed_Plant_05.obj),pass(*)
+B,2,20: model(Poly_Weed_Plant_06.obj),pass(*)
+B,3,20: model(Poly_Weed_Plant_07.obj),pass(*)
+
+B,1,27: model(Poly_Weed_Plant_01_Snow.obj),pass(*)
+B,2,27: model(Poly_Weed_Plant_02_Snow.obj),pass(*)
+B,4,27: model(Poly_Weed_Plant_03_Snow.obj),pass(*)
+
+B,7,29: model(Poly_Weed_Plant_01_Dead.obj),pass(*)
+
+
+\\Mushrooms
+B,2,30: model(Poly_Mushroom_01.obj)
+B,3,29: model(Poly_Mushroom_02.obj)
+B,2,29: model(Poly_Mushroom_03.obj)
+
+\\Plant Lotus On Water
+B,5,31: model(Poly_Lotus_01.obj),pass(*)
+B,6,31: model(Poly_Lotus_02.obj),pass(*)
+B,7,31: model(Poly_Lotus_03.obj),pass(*)
+
+\\wall plants next to rope
+B,4,2: mesh(c{1,.01,2|0,0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,+0px,1,96px},{0,0},{B,+0,+0px,1,96px},{0,0}}),pass(*)
+B,4,3: mesh(c{1,.01,2|0,-0.49,0||{B,+0,+0px,.0001,48px},{0,0},{B,+0,-48px,1,96px},{0,0},{B,+0,-48px,1,96px},{0,0}}),pass(*)
+
+\\Wall ladders & Rope
+B,1,2: model(Poly_Ladder_01.obj),yoff(-.45),pass(*)
+B,1,3: model(Poly_Ladder_01.obj),yoff(.45),pass(*)
+B,1,4: model(Poly_Ladder_01.obj),xoff(.45),rot(90),pass(*)
+B,2,2: model(Poly_Ladder_02.obj),yoff(-.42),pass(*)
+B,2,3: model(Poly_Ladder_02.obj),yoff(.42),pass(*)
+B,2,4: model(Poly_Ladder_02.obj),xoff(.42),rot(90),pass(*)
+
+B,3,2: model(Poly_Rope_01.obj)
+B,3,3: model(Poly_Rope_01.obj)
+B,3,4: model(Poly_Rope_01.obj)
+
+\\Sign Boards
+\\B,1-7,8: mesh(c{1,.15,.8|0,0,0||{B,+0,+14px,1,4px},{B,+0,+14px,1,6px},{+0,+17px,1,28px},{+0,+14px,1,6px},{B,+0,+17px,1,28px},{B,+0,+14px,1,6px}
+\\B,0-7,9: mesh(c{1,.15,.8|0,0,0||{B,+0,+14px,1,4px},{B,+0,+14px,1,6px},{+0,+17px,1,28px},{+0,+14px,1,6px},{B,+0,+17px,1,28px},{B,+0,+14px,1,6px}
+B,1,8: model(Poly_Board_Sign_01.obj)
+B,2,8: model(Poly_Board_Sign_02.obj)
+B,3,8: model(Poly_Board_Sign_03.obj)
+B,4,8: model(Poly_Board_Sign_04.obj)
+B,5,8: model(Poly_Board_Sign_05.obj)
+B,6,8: model(Poly_Board_Sign_06.obj)
+B,7,8: model(Poly_Board_Sign_07.obj)
+
+B,0,9: model(Poly_Board_Sign_08.obj)
+B,1,9: model(Poly_Board_Sign_09.obj)
+B,2,9: model(Poly_Board_Sign_10.obj)
+B,3,9: model(Poly_Board_Sign_11.obj)
+B,4,9: model(Poly_Board_Sign_12.obj)
+B,5,9: model(Poly_Board_Sign_13.obj)
+B,6,9: model(Poly_Board_Sign_14.obj)
+B,7,9: model(Poly_Board_Sign_15.obj)
+
+\\Grass Fed
+B,0,31:model(Poly_Grassfed_01.obj)
+B,1,31:model(Poly_Grassfed_02.obj)
+
+\\Plants
+B,6,30:model(Poly_Plant_01.obj),rot(45)
+B,7,30:model(Poly_Plant_02.obj),rot(270)
+B,3,31:model(Poly_Plant_03.obj),rot(180)
+B,7,18:model(Poly_Plant_04.obj)
+
+\\Cactus
+B,6,29:model(Poly_Cactus_01.obj)
+
+\\ Coconut Tree
+B,4,29:model(Poly_Coconut_Tree_01.obj),rot(45)
+B,5,29:model(Poly_Coconut_Tree_01_A.obj),rot(270)
+B,4,30:model(Poly_Coconut_Tree_01.obj),rot(180)
+
+\\ Dead Tree & Plants
+B,0,29:model(Poly_Dead_Tree_01.obj),rot(45)
+B,0,30:model(Poly_Dead_Tree_01.obj),rot(90)
+B,1,29:model(Poly_Dead_Tree_01.obj),rot(180)
+B,1,30:model(Poly_Dead_Tree_01.obj),rot(270)
+
+B,0,28:model(Poly_Dead_Plant_01.obj)
+B,7,25:model(Poly_Dead_Plant_02_Snow.obj)
+
+//Crates
+B,4,22-23:model(Poly_Crate_Big_01.obj)
+
+B,5,22:model(Poly_Crate_01.obj)
+B,5,23:model(Poly_Crate_02.obj)
+B,6,22:model(Poly_Crate_03.obj)
+B,7,22:model(Poly_Crate_04.obj)
+B,6,23:model(Poly_Crate_05.obj)
+B,7,23:model(Poly_Crate_06.obj)
+
+B,7,24:model(Poly_Crate_01_Snow.obj)
+
+\\ Crops
+B,5,21:model(Poly_Carrots_01.obj)
+B,6,21:model(Poly_Cabbage_01.obj)
+B,7,21:model(Poly_Berry_Tree_01.obj)
+B,4,21:model(Poly_Corns_01.obj)
+
+\\ Scarecrow
+B,0,21:model(Poly_Robot_Scarecrow_01.obj)
+B,4,24:model(Poly_Robot_Scarecrow_02_Snow.obj)
+
+\\ Rocks
+B,7,19:model(Poly_Black_Rock_01.obj)
+B,7,20:model(Poly_Gold_Rock_01.obj)
+B,7,27:model(Poly_Black_Rock_02_Snow.obj)
+B,7,28:model(Poly_Gold_Rock_02_Snow.obj)
+
+\\ Bush
+B,6,20:model(Poly_Bush_01.obj),rot(90)
+B,6,28:model(Poly_Bush_03_Snow.obj),rot(90)
+B,5,30:model(Poly_Bush_02.obj)
+
+\\ Log
+B,4,20:model(Poly_Log_01.obj),scale(.75,.75)
+B,4,28:model(Poly_Log_02_Snow.obj),scale(.75,.75)
+
+\\ Stump
+B,4,19:model(Poly_Stump_01.obj),rot(90)
+B,0,26:model(Poly_Stump_03_Snow.obj),rot(90)
+B,3,30:model(Poly_Stump_02.obj),rot(90)
+
+\\ Barricades
+B,5,18:model(Poly_Barricade_01.obj),rot(90)
+B,6,18:model(Poly_Barricade_01.obj)
+B,5,25:model(Poly_Barricade_02_Snow.obj),rot(90)
+B,6,25:model(Poly_Barricade_02_Snow.obj)
+
+\\ Fire Camp
+B,3,18:model(Poly_Fire_Camp_01.obj)
+B,4,18:model(Poly_Fire_Camp_02.obj)
+
+\\ Bucket
+B,1,18:model(Poly_Bucket_01.obj)
+B,2,18:model(Poly_Bucket_02.obj)
+B,6,24:model(Poly_Bucket_03_Snow.obj)
+
+\\ Pot
+B,0,18:model(Poly_Pot_01.obj)
+B,5,24:model(Poly_Pot_02_Snow.obj)
+
+\\ Tomb Stones
+B,6,17:model(Poly_Tomb_Stone_01.obj)
+B,7,17:model(Poly_Tomb_Stone_02.obj)
+B,6,26:model(Poly_Tomb_Stone_03_Snow.obj)
+B,7,26:model(Poly_Tomb_Stone_04_Snow.obj)
+
+\\ Barrel
+B,5,17:model(Poly_Barrel_01.obj), scale(1,1)
+B,5,26:model(Poly_Barrel_02_Snow.obj), scale(1,1)
+
+\\ The Well
+B,3,17:model(Poly_Well_01.obj), scale(1,1)
+B,3,26:model(Poly_Well_01_Snow.obj), scale(1,1)
+
+\\ Direction Boards
+B,2,17: model(Poly_Direction_Board_01.obj), scale(1,1)
+B,1,17: model(Poly_Direction_Board_02.obj), scale(1,1)
+B,2,26: model(Poly_Direction_Board_03_Snow.obj), scale(1,1)
+B,1,26: model(Poly_Direction_Board_04_Snow.obj), scale(1,1)
+
+\\Mooring Poles
+B,1,16:model(Poly_Mooring_Pole_01.obj)
+B,2,16:model(Poly_Mooring_Pole_02.obj)
+B,4,25:model(Poly_Mooring_Pole_03_Snow.obj)
+
+
+\\Windows light for at night
+\\Light & Shadow for window 1,2,3,5, and 5A
+\\\\<mz3d:model(Poly_Window_01_Light_A.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_01_Light_B.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+
+B,0,12:model(Poly_Window_01.obj),zoff(.5),pass(*)
+B,1,12:model(Poly_Window_02.obj),zoff(.5),pass(*)
+B,2,12:model(Poly_Window_03.obj),zoff(.5),pass(*)
+
+B,3,12:model(Poly_Window_04.obj),zoff(.5),pass(*)
+B,5,13:model(Poly_Window_05.obj),zoff(.5),pass(*)
+B,5,12:model(Poly_Window_05_A.obj),zoff(.5),pass(*)
+
+\\Light & Shadow for window 6, 7, 8
+\\\\<mz3d:model(Poly_Window_08_Light_A.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_08_Light_B.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+B,1,14:model(Poly_Window_06.obj),zoff(.5),pass(*)
+B,1,15:model(Poly_Window_07.obj),zoff(.5),pass(*)
+B,0,14:model(Poly_Window_08.obj),zoff(.5),pass(*)
+B,0,15:model(Poly_Window_08.obj),zoff(.5),rot(180),pass(*)
+
+B,2,14:model(Poly_Window_09.obj),zoff(.5),pass(*)
+B,2,15:model(Poly_Window_09.obj),zoff(.5),rot(180),pass(*)
+
+\\Light & Shadow for window 10, 11
+\\\\<mz3d:model(Poly_Window_10_Light_A.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_10_Light_B.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_11_Light_A.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_11_Light_B.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+B,3,14:model(Poly_Window_10.obj),zoff(.5),pass(*)
+B,3,15:model(Poly_Window_10.obj),zoff(.5),rot(180),pass(*)
+B,4,14:model(Poly_Window_11.obj),zoff(.5),pass(*)
+B,4,15:model(Poly_Window_11.obj),zoff(.5),rot(180),pass(*)
+
+B,6,12:model(Poly_Window_12.obj),zoff(.5),rot(0),pass(*)
+B,6,13:model(Poly_Window_12.obj),zoff(.5),rot(180),pass(*)
+B,7,12:model(Poly_Window_13.obj),zoff(.5),rot(0),pass(*)
+
+B,7,13:model(Poly_Window_13.obj),zoff(.5),rot(180),pass(*)
+\\Window Lights for at night
+\\\\<mz3d:model(Poly_Window_13_Light_A.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+\\\\<mz3d:model(Poly_Window_13_Light_B.obj), pos(x,y), offset(0,0,.5),glow(1),lamp(white,1,2,3),shadow(0)>
+
+\\0,1-6 Light Poles
+B,0,1:model(Poly_Light_Pole_Lamps_01_02.obj),glow(1,3),yoff(-1),shadow(true)
+B,0,2-3:model(Poly_Light_Pole_01.obj),lamp(white,2,6),lampOffset(z:3),shadow(true)
+B,0,4:model(Poly_Light_Pole_Lamps_01_02.obj),glow(1,3),yoff(-1),shadow(true)
+B,0,5-6:model(Poly_Light_Pole_02_Snow.obj),lamp(white,2,6),lampOffset(z:3),shadow(true)
+
+\\5-7,0-5 Tents
+B,6,2: model(Poly_Tent_01.obj),rot(180)
+B,6,5: model(Poly_Tent_02.obj),rot(180)
+
+</mz3d>

@@ -1,0 +1,289 @@
+<mz3d>
+//Machine
+B,2,20: model(Poly_SF_Outside_B_Machine_01.obj)
+B,3,20: model(Poly_SF_Outside_B_Machine_02.obj)
+B,4,20: model(Poly_SF_Outside_B_Machine_03.obj)
+
+//Net
+B,7,30: model(Poly_SF_Outside_B_Net_01.obj)
+
+//Rope
+B,6,30: model(Poly_SF_Outside_B_Rope_01.obj)
+
+//Metal Ladder
+B,4,30: model(Poly_SF_Outside_B_Metal_Ladder_01.obj)
+B,5,30: model(Poly_SF_Outside_B_Metal_Stairs_01.obj)
+
+//Holes
+B,7,31: model(Poly_SF_Outside_B_Hole_01.obj)
+B,4,31: model(Poly_SF_Outside_B_Hole_Metal_Ladder_01.obj)
+B,5,31: model(Poly_SF_Outside_B_Hole_Metal_Stairs_01.obj)
+B,6,31: model(Poly_SF_Outside_B_Hole_Rope_01.obj)
+
+
+//Stairs
+B,4,26: model(Poly_SF_Outside_B_Stairs_01_Left.obj)
+B,5,26: model(Poly_SF_Outside_B_Stairs_01_Right.obj)
+B,6,26: model(Poly_SF_Outside_B_Stairs_Down_01_Left.obj)
+B,7,26: model(Poly_SF_Outside_B_Stairs_Down_01_Right.obj)
+
+B,4,27: model(Poly_SF_Outside_B_Stairs_02_Left.obj)
+B,5,27: model(Poly_SF_Outside_B_Stairs_02_Right.obj)
+B,6,27: model(Poly_SF_Outside_B_Stairs_Down_02_Left.obj)
+B,7,27: model(Poly_SF_Outside_B_Stairs_Down_02_Right.obj)
+
+//Food Stall
+B,0,28: model(Poly_SF_Outside_B_Food_Stall_01.obj)
+
+//Junk Stall
+B,0,31: model(Poly_SF_Outside_B_Junk_Stall_01.obj)
+
+//Stall Goods
+B,3,26: model(Poly_SF_Outside_B_Stall_Goods_01.obj),Scale(.75)
+B,3,27: model(Poly_SF_Outside_B_Stall_Goods_02.obj),Scale(.75)
+B,3,28: model(Poly_SF_Outside_B_Stall_Goods_03.obj),Scale(.65)
+B,3,29: model(Poly_SF_Outside_B_Stall_Goods_04.obj)
+B,3,30: model(Poly_SF_Outside_B_Stall_Goods_05.obj)
+B,3,31: model(Poly_SF_Outside_B_Stall_Goods_06.obj)
+
+//Fissures
+B,5,22: model(Poly_SF_Outside_B_Fissures_01.obj),pass(*)
+B,6,22: model(Poly_SF_Outside_B_Fissures_02.obj),pass(*)
+B,7,22: model(Poly_SF_Outside_B_Fissures_03.obj),pass(*)
+
+
+//Public Phone & Machine Device
+B,0,19: model(Poly_SF_Outside_B_Public_Phone_01.obj)
+B,1,19: model(Poly_SF_Outside_B_Machine_Device_01.obj)
+
+//Barricade & Bar
+B,5,20: model(Poly_SF_Outside_B_Barricade_01.obj)
+B,6,20: model(Poly_SF_Outside_B_Bar_01.obj)
+
+//Tombstones
+B,6,19: model(Poly_SF_Outside_B_Tombstone_01.obj)
+B,7,19: model(Poly_SF_Outside_B_Tombstone_02.obj)
+
+//Small Fuel Tank
+B,4,23: model(Poly_SF_Outside_B_Small_Fuel_Tank_01.obj)
+
+//Pile Up Tires
+B,3,23: model(Poly_SF_Outside_B_Pile_Up_Tires_01.obj)
+
+//Timetable
+B,2,23: model(Poly_SF_Outside_B_Timetable_01.obj)
+
+//Guardrail
+B,1,23: model(Poly_SF_Outside_B_Guardrail_01.obj)
+
+//Drain
+B,0,23: model(Poly_SF_Outside_B_Drain_01.obj)
+
+//Shutter& Air Vent
+B,4,22: model(Poly_SF_Outside_B_Shutter_01.obj),pass(*)
+B,3,22: model(Poly_SF_Outside_B_Air_Vent_02.obj),pass(*)
+B,2,22: model(Poly_SF_Outside_B_Air_Vent_01.obj),pass(*)
+
+//Scap Metal
+B,4,21: model(Poly_SF_Outside_B_Scap_Metal_01.obj)
+
+//Waste
+B,3,21: model(Poly_SF_Outside_B_Waste_01.obj)
+
+//Outdoor Air Intake Unit
+B,2,21: model(Poly_SF_Outside_B_Outdoor_Air_Intake_Unit_01.obj)
+
+//Vending Machine
+B,3,18: model(Poly_SF_Outside_B_Vending_Machine_01.obj)
+
+//ATM Machine
+B,4,18: model(Poly_SF_Outside_B_ATM_01.obj)
+
+//Tree
+B,5,18: model(Poly_SF_Outside_B_Tree_01.obj)
+B,5,17: model(Poly_SF_Outside_B_Tree_01_B.obj)
+
+B,6,18: model(Poly_SF_Outside_B_Tree_Avenue_01.obj)
+B,6,17: model(Poly_SF_Outside_B_Tree_Avenue_01_B.obj)
+
+//Plants
+B,0,18: model(Poly_SF_Outside_B_Plant_01.obj)
+B,1,18: model(Poly_SF_Outside_B_Plant_02.obj)
+B,2,18: model(Poly_SF_Outside_B_Plant_03.obj)
+
+B,2,19: model(Poly_SF_Outside_B_Planter_01.obj)
+B,3,19: model(Poly_SF_Outside_B_Planter_02.obj)
+B,4,19: model(Poly_SF_Outside_B_Planter_03.obj)
+
+//Vehicles
+B,7,15: model(Poly_SF_Outside_B_Small_Crane_01.obj)
+B,3,25: model(Poly_SF_Outside_B_Truck_01.obj)
+B,1,25: model(Poly_SF_Outside_B_Bus_01.obj)
+B,6,23: model(Poly_SF_Outside_B_Red_Car_01.obj),collide(2,1)
+B,6,24: model(Poly_SF_Outside_B_Black_Car_01.obj)
+B,6,25: model(Poly_SF_Outside_B_Blue_Car_01.obj)
+
+B,4,25: model(Poly_SF_Outside_B_Wrecked_Car_01.obj)
+
+//Traffic Cone
+B,6,5: model(Poly_SF_Outside_B_Traffic_Cone_01.obj)
+
+//Iron Materials & Helment
+B,5,15: model(Poly_SF_Outside_B_Iron_Materials_01.obj)
+B,6,15: model(Poly_SF_Outside_B_Helment_01.obj)
+
+//Poster & Wall Poster & Signboards
+B,0,14: model(Poly_SF_Outside_B_Poster_01.obj), pass(*), zoff(0.5)
+B,0,15: model(Poly_SF_Outside_B_Wall_Poster_01.obj), pass(*), zoff(0.5)
+B,1,14: model(Poly_SF_Outside_B_Signboard_01.obj)
+B,2,14: model(Poly_SF_Outside_B_Signboard_02.obj)
+B,1,15: model(Poly_SF_Outside_B_Signboard_03.obj)
+
+// Digital Signage
+B,3,14: model(Poly_SF_Outside_B_Digital_Signage_01.obj), pass(*), zoff(0.5)
+B,2,15: model(Poly_SF_Outside_B_Digital_Signage_02.obj), pass(*), zoff(0.5)
+B,4,15: model(Poly_SF_Outside_B_Digital_Signage_03.obj)
+
+//Chimney
+B,0,13: model(Poly_SF_Outside_B_Chimney_01.obj)
+B,1,13: model(Poly_SF_Outside_B_Chimney_02.obj)
+B,2,13: model(Poly_SF_Outside_B_Chimney_03.obj)
+B,3,13: model(Poly_SF_Outside_B_Exhaust_Port_Wall_01.obj),zoff(.5),pass(*)
+
+//Windows
+B,0,7: model(Poly_SF_Outside_B_Window_01.obj),zoff(.5),pass(*)
+B,0,9: model(Poly_SF_Outside_B_Window_02.obj),zoff(.5),pass(*)
+B,1,7: model(Poly_SF_Outside_B_Window_03.obj),zoff(.5),pass(*)
+B,1,9: model(Poly_SF_Outside_B_Window_04.obj),zoff(.5),pass(*)
+B,2,7: model(Poly_SF_Outside_B_Window_05.obj),zoff(.5),pass(*)
+B,2,9: model(Poly_SF_Outside_B_Window_06.obj),zoff(.5),pass(*)
+B,3,7: model(Poly_SF_Outside_B_Window_07.obj),zoff(.5),pass(*)
+B,3,9: model(Poly_SF_Outside_B_Window_08.obj),zoff(.5),pass(*)
+B,4,7: model(Poly_SF_Outside_B_Window_09.obj),zoff(.5),pass(*)
+B,4,9: model(Poly_SF_Outside_B_Window_10.obj),zoff(.5),pass(*)
+B,5,7: model(Poly_SF_Outside_B_Window_11.obj),zoff(.5),pass(*)
+B,5,9: model(Poly_SF_Outside_B_Window_12.obj),zoff(.5),pass(*)
+B,6,7: model(Poly_SF_Outside_B_Window_13.obj),zoff(.5),pass(*)
+B,6,9: model(Poly_SF_Outside_B_Window_14.obj),zoff(.5),pass(*)
+B,7,7: model(Poly_SF_Outside_B_Window_15.obj),zoff(.5),pass(*)
+B,7,9: model(Poly_SF_Outside_B_Window_16.obj),zoff(.5),pass(*)
+B,7,11: model(Poly_SF_Outside_B_Window_17.obj),zoff(.5),pass(*)
+B,4,13: model(Poly_SF_Outside_B_Window_18.obj),,zoff(.5),pass(*)
+//This is for roof window
+//B,4,13: model(Poly_SF_Outside_B_Window_18.obj),offset(0,-0.55,2.75),pass(*),pitch(-45)
+
+//Barrel & Oil Drum & Garbage Can
+B,3,16: model(Poly_SF_Outside_B_Barrel_01.obj)
+B,4,16: model(Poly_SF_Outside_B_Oil_Drum_01.obj)
+B,7,25: model(Poly_SF_Outside_B_Oil_Drum_Leak_01.obj)
+B,5,16: model(Poly_SF_Outside_B_Garbage_Can_01.obj)
+B,6,16: model(Poly_SF_Outside_B_Sorted_Waste_Bins_01.obj)
+
+//Crate & Shipping Containers & Cardboard Box 
+B,0,16: model(Poly_SF_Outside_B_Crate_01.obj)
+B,5,13: model(Poly_SF_Outside_B_Crate_02.obj)
+
+B,1,16: model(Poly_SF_Outside_B_Shipping_Container_01.obj)
+B,6,13: model(Poly_SF_Outside_B_Shipping_Container_02.obj)
+
+B,2,16: model(Poly_SF_Outside_B_Cardboard_Box_01.obj)
+B,7,13: model(Poly_SF_Outside_B_Cardboard_Box_02.obj)
+
+//Utility Pole
+B,7,18: model(Poly_SF_Outside_B_Utility_Pole_01.obj),depth(true)
+
+//Street Lights
+B,5,11: model(Poly_SF_Outside_B_Street_Light_01.obj)
+//use this as an event per each page 
+//<mz3d: model(Poly_SF_Outside_B_Street_Light_01_Lamp.obj),glow(white),lamp(white,4,4),lampoffset(1,0,3),pos(x,y)>
+
+B,6,11: model(Poly_SF_Outside_B_Street_Light_02.obj)
+//use this as an event per each page 
+//<mz3d: model(Poly_SF_Outside_B_Street_Light_02_Lamp.obj),glow(white),lamp(white,4,4),lampoffset(0,0,3),pos(x,y)>
+
+//Traffic Lights
+B,1,6: model(Poly_SF_Outside_B_Traffic_Light_01.obj)
+//use these as an event per each page 
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_01_Red.obj),glow(red),pos(x,y)>
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_01_Green.obj),glow(green),pos(x,y)>
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_01_Yellow.obj),glow(yellow),pos(x,y)>
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_01_Bottom_Green.obj),glow(green),pos(x,y)>
+
+B,2,6: model(Poly_SF_Outside_B_Traffic_Light_02.obj)
+//use these as an event per each page 
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_02_Red.obj),glow(red),pos(x,y)>
+//<mz3d: model(Poly_SF_Outside_B_Traffic_Light_02_Green.obj),glow(green),pos(x,y)>
+
+//Bridges
+B,0,2: model(Poly_SF_Outside_B_Bridge_Alpha_01.obj),offset(0,0,.1),fringe(-.1)
+B,0,3: model(Poly_SF_Outside_B_Bridge_Alpha_01_End.obj),offset(0,0,.08),fringe(-.08)
+
+B,2,2: model(Poly_SF_Outside_B_Bridge_Stone_01.obj),offset(0,0,.1),fringe(-.1)
+
+B,4,2: model(Poly_SF_Outside_B_Bridge_Metal_01.obj),offset(0,0,.1),fringe(-.1)
+B,6,2: model(Poly_SF_Outside_B_Bridge_Metal_02.obj),offset(0,0,.1),fringe(-.1)
+
+//Sign Boards
+B,0,1: model(Poly_SF_Outside_B_Board_Sign_01.obj), offset(0,0,1.5), pass(*)
+B,1,1: model(Poly_SF_Outside_B_Board_Sign_02.obj), offset(0,0,1.5), pass(*)
+B,2,1: model(Poly_SF_Outside_B_Board_Sign_03.obj), offset(0,0,1.5), pass(*)
+B,3,1: model(Poly_SF_Outside_B_Board_Sign_04.obj), offset(0,0,1.5), pass(*)
+B,4,1: model(Poly_SF_Outside_B_Board_Sign_05.obj), offset(0,0,1.5), pass(*)
+B,5,1: model(Poly_SF_Outside_B_Board_Sign_06.obj), offset(0,0,1.5), pass(*)
+B,6,1: model(Poly_SF_Outside_B_Board_Sign_07.obj), offset(0,0,1.5), pass(*)
+B,7,1: model(Poly_SF_Outside_B_Board_Sign_08.obj), offset(0,0,1.5), pass(*)
+
+//Neo Sign Boards
+
+B,1,0: model(Poly_SF_Outside_B_Board_Neo_Sign_01.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_01_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,2,0: model(Poly_SF_Outside_B_Board_Neo_Sign_02.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_02_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,3,0: model(Poly_SF_Outside_B_Board_Neo_Sign_03.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_03_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,4,0: model(Poly_SF_Outside_B_Board_Neo_Sign_04.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_04_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,5,0: model(Poly_SF_Outside_B_Board_Neo_Sign_05.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_05_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,6,0: model(Poly_SF_Outside_B_Board_Neo_Sign_06.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_06_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,7,0: model(Poly_SF_Outside_B_Board_Neo_Sign_07.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_07_Lamp.obj),glow(white, 0.1, 0.1),lamp(white,2,2),lampoffset(0,0,1.5),pos(x,y),offset(0,0,1.5)>
+
+B,0,10: model(Poly_SF_Outside_B_Board_Neo_Sign_08.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_08_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2),pos(x,y),offset(0,0,1.5)>
+
+B,1,10: model(Poly_SF_Outside_B_Board_Neo_Sign_09.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_09_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2),pos(x,y),offset(0,0,1.5)>
+
+B,2,10: model(Poly_SF_Outside_B_Board_Neo_Sign_10.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_10_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2),pos(x,y),offset(0,0,1.5)>
+
+B,0,12: model(Poly_SF_Outside_B_Board_Neo_Sign_11.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_11_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2.5),pos(x,y),offset(0,0,1.5)>
+
+B,1,12: model(Poly_SF_Outside_B_Board_Neo_Sign_12.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_12_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2.5),pos(x,y),offset(0,0,1.5)>
+
+B,2,12: model(Poly_SF_Outside_B_Board_Neo_Sign_13.obj), offset(0,0,1.5), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_13_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0,0,2.5),pos(x,y),offset(0,0,1.5)>
+
+B,3,10: model(Poly_SF_Outside_B_Board_Neo_Sign_14.obj), offset(0.5,0,0), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_14_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0.5,0,1),pos(x,y),offset(0.5,0,0)>
+
+B,3,11: model(Poly_SF_Outside_B_Board_Neo_Sign_15.obj), offset(0.5,0,0), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_15_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0.5,0,1),pos(x,y),offset(0.5,0,0)>
+
+B,3,12: model(Poly_SF_Outside_B_Board_Neo_Sign_16.obj), offset(0.5,0,0), pass(*)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_16_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0.5,0,1),pos(x,y),offset(0.5,0,0)>
+
+B,5,14: model(Poly_SF_Outside_B_Board_Neo_Sign_17.obj), offset(0.5,0,0), glow(0.5,0.5)
+//<mz3d: model(Poly_SF_Outside_B_Board_Neo_Sign_17_Lamp.obj),glow(white,.1,.1),lamp(white,2,2),lampoffset(0.5,0,1),pos(x,y),offset(0.5,0,0)>
+
+</mz3d>
